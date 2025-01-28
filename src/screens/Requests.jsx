@@ -1,13 +1,15 @@
 import React from 'react';
 import { View, Text, StyleSheet, SafeAreaView } from 'react-native';
 import LoanDetailsCard from '../components/LoanDetailsCard';
-// Removed FontAwesome imports
+import BoubyanRequest from '../components/BoubyanRequest';
+import { BankList } from '../components/BankList';
 
 export function Requests() {
   return (
     <View style={styles.container}>
       <SafeAreaView>
         <LoanDetailsCard />
+        <BankList />
       </SafeAreaView>
     </View>
   );

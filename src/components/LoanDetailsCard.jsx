@@ -65,6 +65,9 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 8,
     elevation: 5, // For Android shadow
+    width: '100%',
+    height: '30%',
+    alignSelf: 'center',
   },
   title: {
     fontSize: 18,
